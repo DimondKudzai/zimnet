@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zimbabwe Web Builder</title>
+	<meta charset="utf-8">
+	<meta http-equiv="pragma" content="nocache"/>
+    <meta name="keywords" content="Zimnet,web developer, frontend engineer, Madechawo, portfolio, Dimond k,Vue.js,Zimbabwe,backend developer,cheap website,Madechawo,fullstack,selftaught,kudzai,Harare,Africa"/>
+    <meta  name="description"  content="cheap website developer ,Zimbabwe website developer"/>
+    <base href="index.html"/>
+    <link rel="stylesheet" type="text/css" href="zimnet.css"/>
+    <script type="text/javascript" src="myvue.js"></script>
+    <script src="router.js"></script>
+    <script src="javascript.js"></script>
+</head>
+<body>
+<header>
+<div id='routes'>
+	<a name="up"><header>
+		<h2>
+			<b class="heading"><br>
+			  &#160 &#160 &#160 &#160<router-link to="/">ZIMNET.com</router-link>
+			</b>
+ 		</h2><br><br><br><br><br>
+						<router-view class='routes'></router-view>
+		<table border="0px" bgcolor="" class="panel" align="right">
+			<tr class="panel_text">
+				<td>
+					&#160 &#160<router-link to='/email'><b id="">Sent Email</b></router-link>
+				</td>
+				<td><hr></td>
+				<td>
+					&#160 &#160<b><a href="#social">Social Media</a></b>
+				</td>
+				<td><hr></td>
+				<td>
+					&#160 &#160<router-link to='/about'><b>About this site</b></router-link>
+				</td>
+							<td><hr></td>
+				<td>
+					&#160 &#160<router-link to='/previous'><b>Charges  / Pricing</b></router-link>
+				</td>
+				<td><hr></td>
+			</tr>
+		</table><br>
+
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<b class="header_text">
+			         gEt ThaT AffoRdabLe wEbsiTe<br>
+			           ThAt mEEt yoUr NeeDs</b><br>
+
+			           </div>
+
+	</header></a>
+	<div>
+		<img src="beaut.jpg" class="about_img" alt="zimnet">
+		<p class="text">
+			There is no substitute for quality.<span class="heading">ZIMNET</span> is your ultimate choice for your website building.<br><br>For as little as $55,you can own a website.Weather it's <span class="heading"><br>Personal website,Buisness,Church or any Organistion</span> sertisfaction is promised.</span><b><span class="panel_text">We do:</span></b>
+		</p>
+			<ul>
+			<b>
+				<li>
+					Website Develping<br>
+				</li>
+				<br><br>
+				<li>
+					Website Updating<br>
+				</li>
+				<br><br>
+		       		<li>
+			         Website Consultation<br>
+				</li>
+								<br><br>
+				<li>
+					Website designing
+				</li>
+			</b>
+			</ul><br><br><br>
+	</div>
+	<a href="#up"><div class="up"><im src="up.png" class="up" alt="back to top" align="center">
+</div></a>
+	<br>
+<br><br><br><br><br>
+	<div class="last"><br><br>
+		<a name="social"><table border="0px" bgcolor="#123" class="last_table" align="center" width="100%">
+			<tr class="last_align">
+				<td>
+					<a href="https://m.facebook.com/Websites-developer-113300083549759/"><img src="facebook.png" class="last_img" alt="facebook">facebook</a>
+				</td>
+				<td>
+					<a href="https://mobile.twitter.com/DMadechawo"><img src="twitter.png" class="last_img" alt="twitter">@dmadechawo</a>
+				</td>
+
+				<td>
+					<a href="https://chat.whatsapp.com/JCR545JgutPKNtRLLTzG3l"><img src="whatsapp.png" class="last_img" alt="whatsapp">whatsapp</ap>
+				</td>
+				<td>
+					<img src="call.png" class="last_img" alt="call us">+263783702724
+				</td>
+
+			</tr>
+		</table></a>
+
+		<br><br><br><br><p class="text">
+			Feedback - diamondkudzai70@gmail.com<br><br>
+			&copy2020 Dimond Production<br><br></p>
+			<img src="mylogo.jpg" class="dimond" alt="dimond"/>
+	</div>
+	<script>
+Vue.use(VueRouter)
+const home={ template:""}
+const email={ template:`<div class="email">
+ <a href="index.html#/"><img src="cancel.png" class="last_img" alt="cancel"></a>
+<br><br><br>
+<form action="mail.php" method='post'>
+  Name: <input id='text' v-model='name' name="name" required=""><br><br>
+  Email:<input id='text' v-model='email' name="email" required=""><br><br>
+ <span class="heading"> ZIMNET</span> would be very happy to hear from you <span class="heading">{{name}}</span>.<br>
+  Message: <textarea id='text' rows='12' cols='38' v-model='message' name="message" required=""></textarea>
+  <button value='submit' id='text'>Send</button>
+</form>
+</div>`,
+data: function () {
+	return {
+		name:this.name,
+		email: this.email,
+		message: this.message
+	}
+}
+}
+ const about= {template: `<div class='about'>
+ <a href="index.html#/"><img src="cancel.png" class="last_img" alt="cancel"></a>
+ <br><br><br>
+   A Dimond Production<br><br>
+   Website Developed by Dimond K Madechawo<br><br>
+   <img src='mylogo.jpg' height="200px" width="300px" alta='developer'><br><br>
+   &copy2020 all rights reserved.
+ 	</div>`}
+const previous={ template:`<div class='previous'>
+ <a href="index.html#/"><img src="cancel.png" class="last_img" alt="cancel"></a>
+<br><br><br>
+<p>You can choose from our charges below<br><br>
+<table bgColor="grey" border="2" align="center">
+<tr class="pricing">
+<td>Cost</td><td>Pages</td><td>Social media linking</td><td>Reviews</td>
+</tr>
+<tr>
+<td>$55</d><td>2</td><td></td><td>1</td>
+</tr>
+<tr>
+<td>$80</td><td>3</td><td>√</td><td>2</td>
+</tr>
+<tr>
+<td>$100</td><td>5</td><td>√</td><td>3</td>
+</tr>
+</table><br><br>
+Hosting $6 per 3 months + free domain<br> for the 1st year + free email account.<br><br><br>
+If you have questions or enquiries.<br>Please send us a <a href="index.html#/email" style="color: blue;"><b>messege here</b></a> and we will reply you privately.
+</p>
+</div>`}
+ const router= new VueRouter({
+routes:[
+{path:"/",component:home},
+{path:"/about",component:about},
+{path:"/email",component:email},
+{path:"/previous",component:previous}
+]
+});
+new Vue({
+router,
+el: "#routes"
+});
+</script>
+</body>
+</html>

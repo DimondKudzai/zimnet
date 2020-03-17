@@ -1,0 +1,145 @@
+header{
+	background-color:grey;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 19px;
+    width: 100%;
+   font-family: courier;
+   text-align: center;
+   height: 700px;
+}
+.about_img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-top: -100px;
+	margin-left: 200px;
+}
+.heading{
+	color: red;
+	font-family: Times;
+   ;
+}
+.panel{
+	margin-right: +100px;
+   
+}
+hr{
+	color: black;
+	height: 100px;
+	width: 10px;
+	background-color: red;
+}
+.panel_text{
+	font-family: Courier;
+	color: blue;
+   font-size: 30px;
+}
+a{
+	color: inherit;
+}
+ul{
+	margin-right: 30px;
+	text-align: ;
+	font-family: times,courier;
+	float: right;
+	color: red;
+	font-size: 38px;
+}
+.text{
+	font-size: 19px;
+   font-family: Courier;
+   text-align: center;
+}
+.last_img{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
+.last_align{
+	text-align: center;
+	color: white;
+   font-family: courier;
+   font-size: 22px;
+}
+.dimond{
+	width: 260px;
+	height: 160px;
+}
+.last{
+	background-color: #123;
+	font-family: times;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	margin-top: +400px;
+    width: 100%;
+}
+.email{
+	font-family: courier;
+	background-color: #123;
+	position: absolute;
+	margin-top: +630px;
+	width: 70%;
+	color: white;
+	border-radius: 5%;
+}
+.about{
+	font-family: courier;
+	background-color: #123;
+	position: absolute;
+	margin-top: +630px;
+	width: 70%;
+	color: white;
+	text-align: center;
+	border-radius: 5%;
+}
+.previous{
+	font-family: courier;
+	background-color: #123;
+   position: absolute;
+	margin-top: +630px;
+	width: 70%;
+	color: white;
+	border-radius: 5%;
+}
+.up{
+	position: fixed;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	z-index: 81233;
+    margin-left: 190px;
+    top: 195px;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+.back{
+	position: fixd;
+}
+#text{
+	border-radius: 10%;
+}
+h2{
+float: left;
+margin-left: 25px;
+font-size: 50px;
+}
+.header_text{
+	font-size: 28px;
+}
+.routes{
+	width: 80%;
+	height: ;
+	margin-left: 100px;
+	margin-top:+400px;
+	opacity: 0.96;
+    font-size: 32px;
+}
+button{
+color: white;
+background-color: blue;
+width: 80px;
+height: 50px;
+font-size: 25px;
+}
