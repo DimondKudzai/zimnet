@@ -112,7 +112,7 @@ const home={ template:""}
 const email={ template:`<div class="email">
  <a href="index.html#/"><img src="cancel.png" class="last_img" alt="cancel"></a>
 <br><br><br>
-<form action="mail.php" method='post'>
+<form action="mail.php" method='get'>
   Name: <input id='text' v-model='name' name="name" required=""><br><br>
   Email:<input id='text' v-model='email' name="email" required=""><br><br>
  <span class="heading"> ZIMNET</span> would be very happy to hear from you <span class="heading">{{name}}</span>.<br>
