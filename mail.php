@@ -1,7 +1,7 @@
 <?php
-$name = $_POST["name"];
-$message = $_POST["message"];
-$email = $_POST["email"];
+$name = $_GET["name"];
+$message = $_GET["message"];
+$email = $_GET["email"];
 
 
 if(mail("diamondkudzai70@gmail.com", "About ZIMNET", $message, "From:$email\r\n")) {
